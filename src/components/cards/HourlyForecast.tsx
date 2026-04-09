@@ -27,7 +27,10 @@ const HourlyForecast = ({ coords }: Props) => {
       title="Dailt Forecast"
     >
       {data.days[0].hours?.map((hour) => (
-        <div className="flex flex-col gap-2 items-center p-2">
+        <div
+          className="flex flex-col gap-2 items-center p-2"
+          key={hour.datetime}
+        >
           <p className="whitespace-nowrap">
             {new Date(`2000-01-01T${hour.datetime}`).toLocaleTimeString(
               "en-US",

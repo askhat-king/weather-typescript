@@ -33,19 +33,14 @@ The application uses a strategic Tailwind Grid system to ensure the dashboard fe
 
     Mobile: 1-column stack for readability.
 
-    Tablet: 2-column layout pairing the Map with Current Weather.
-
-    Desktop: 3-column "Power Dashboard" where the Map spans 66% of the width for maximum visibility.
+    Desktop: 2-column layout pairing the Map with Current Weather.
 
 🧠 What I Learned
 1. Advanced TypeScript Patterns
 2. React Design Patterns (Composition & Context)
 
-    Context API: Implemented a ThemeProvider to manage global state without "prop drilling."
-
-    Component Composition: Built a reusable Card wrapper that leverages Shadcn’s cn utility to allow custom styling via props.
-
-    Custom Hooks: Developed a useTheme hook with guard clauses to ensure safe context usage.
+* **Context API**: Implemented a `ThemeProvider` to manage global state without **"prop drilling."**
+* **Component Composition**: Built a reusable `Card` wrapper that leverages Shadcn’s `cn` utility to allow custom styling via props.
 
 3. Handling Complex API Logic
 

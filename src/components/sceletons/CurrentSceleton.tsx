@@ -5,6 +5,7 @@ const CurrentSceleton = () => {
   return (
     <Card
       title="Current Weather"
+      className="md:pb-17"
       childrenClassName="flex flex-col items-center gap-6"
     >
       <div className="flex flex-col gap2 items-center">

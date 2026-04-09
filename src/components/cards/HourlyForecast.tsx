@@ -24,7 +24,7 @@ const HourlyForecast = ({ coords }: Props) => {
   return (
     <Card
       childrenClassName="flex gap-6 overflow-x-scroll"
-      title="Dailt Forecast"
+      title="Hourly Forecast"
     >
       {data.days[0].hours?.map((hour) => (
         <div

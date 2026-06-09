@@ -53,7 +53,7 @@ Implemented **React Suspense** paired with `useSuspenseQuery`. This allowed me t
 
 **Clone the repo:**
 ```bash
-git clone https://github.com/your-username/weather-dashboard.git
+git clone https://github.com/askhat-king/weather-typescript.git
 ```
 
 **Install dependencies:**
